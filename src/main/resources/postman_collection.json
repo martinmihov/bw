@@ -1,0 +1,59 @@
+{
+  "info": {
+    "_postman_id": "325b9b3d-5fb0-4f61-98f6-1dfca9a25fd5",
+    "name": "Brandwatch",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "4880220"
+  },
+  "item": [
+    {
+      "name": "gather",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/user-posts/gather",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "user-posts",
+            "gather"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get users posts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/user-posts?page=0&size=10",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "user-posts"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "0"
+            },
+            {
+              "key": "size",
+              "value": "10"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
