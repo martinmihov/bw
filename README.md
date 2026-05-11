@@ -2,10 +2,7 @@
 
 Requirements to run the application:
 
-Git
-Docker Desktop
-Java 21 
-Maven
+Git, Java 21, Maven and Docker Desktop with the following images: postgres:15; confluentinc/cp-zookeeper:7.7.8; confluentinc/cp-kafka:7.7.8;
 
 Step 1: clone the repo
 
